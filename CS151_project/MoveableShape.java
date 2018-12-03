@@ -17,4 +17,17 @@ public interface MoveableShape
       its last movement, its position, and velocity.
    */
    void move();
+   
+   /**
+      defines the height of shape to be used as GUI component height
+   */
+   int height();
+   
+   /**
+      defines the height of shape to be used as GUI component height
+   */
+   int width();
+   
+   
+   
 }
