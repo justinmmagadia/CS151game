@@ -1,5 +1,7 @@
+import javax.swing.ImageIcon;
 
 public class Drone 
 {
-    //tjtjtjh
+	ImageIcon drone = new ImageIcon("drone.jpg");
+	
 }
