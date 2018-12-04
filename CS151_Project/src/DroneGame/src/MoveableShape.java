@@ -1,4 +1,3 @@
-
 import java.awt.*;
 
 /**
@@ -26,8 +25,7 @@ public interface MoveableShape
    /**
       defines the height of shape to be used as GUI component height
    */
-   int width();
-   
+   int width();  
    
    
 }
