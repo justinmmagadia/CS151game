@@ -1,4 +1,4 @@
-import java.awt.Dimension;
+
 import java.awt.Graphics2D;
 import java.awt.Image;
 import java.awt.image.BufferedImage;
@@ -8,6 +8,7 @@ import javax.imageio.ImageIO;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.Timer;
+
 
 
 public class Plain implements MoveableShape 
@@ -22,7 +23,8 @@ public class Plain implements MoveableShape
 	{
 		try
 		{
-			File file = new File ("/Users/admin/Desktop/CS151/DroneGame/src/background.jpeg"); 
+			String desktop = System.getProperty ("user.home") + "/Desktop/"; 
+			File file = new File (desktop + "background.jpeg"); 
 			img = ImageIO.read(file);
 			width =img.getWidth();
 			height = img.getHeight();
@@ -59,4 +61,5 @@ public class Plain implements MoveableShape
 		}	
 		x=x-5;	
 	}
+
 }
